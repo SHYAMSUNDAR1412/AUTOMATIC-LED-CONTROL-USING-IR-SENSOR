@@ -26,44 +26,50 @@ An **IR sensor** detects the presence of an object by emitting and receiving inf
 ### **Procedure**
 
 1. Open **STM32CubeIDE**.
-   <img width="1050" height="591" alt="image" src="https://github.com/user-attachments/assets/109135f6-e6f9-46f8-86e1-ecafa6170b01" />
+  <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/97416402-9595-4a11-aac6-e05e61b3e832" />
+
 
 2. Click **File → New STM32 Project**.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/a5799efb-57e1-42b8-ba46-b09f32d86fcb" />
-<img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/edf33429-8eea-4857-a991-c2d7706fc787" />
+   <img width="1000" height="620" alt="image" src="https://github.com/user-attachments/assets/0c5deb4b-e1a4-4397-8736-06a6598f18a8" />
 
 3. Select the **target microcontroller** or board and click **Next**.
-   <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/f93d88b6-cd7f-49db-84de-351f9b116488" />
+  <img width="1074" height="645" alt="image" src="https://github.com/user-attachments/assets/5ab607ef-6063-458f-a658-458ccb48d5b3" />
 
 
 
 4. Name the project.
-   <img width="533" height="588" alt="image" src="https://github.com/user-attachments/assets/63de2bab-69d4-4cb9-8db6-1b57adff9878" />
+  <img width="993" height="601" alt="image" src="https://github.com/user-attachments/assets/b71e5279-cf69-41b5-83d4-f99f73079357" />
 
 5. The corresponding `.ioc` file will be generated automatically.
-  <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/8900847c-6745-43e2-9ecf-2e66877fdc49" />
+  <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/c39ae85a-8e3b-4d44-9072-cf9456eb2355" />
+
 
 6. Configure the pins as **GPIO (Input/Output)**, **USART**, etc. as needed.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/acc4f1c4-5e33-431b-8a76-3b102016baa6" />
-<img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/b7abcd80-797d-451f-a7c3-23f303822423" />
+ <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/c8c1308c-5f1e-4c2b-90bf-e9ccc9effbb5" />
+ <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/2dbc9cc2-1069-4807-989e-8b2a387bf148" />
+
 
 7. Save the configuration (`Ctrl + S`) – the base C program will be generated automatically.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/dbf4b205-5db9-4e9b-8150-94f441c8b116" />
- 
+  <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/0ac7d5c3-ec29-4e65-bcae-e17c0493ac57" />
+
 8. Edit the generated main program as required.
-   <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/05b39060-35d6-420d-9f4d-8721439bd82f" />
-<img width="1104" height="621" alt="image" src="https://github.com/user-attachments/assets/2ec55709-a45f-4e6e-8738-6aa94138eab1" />
+  <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/c510f7da-353e-4d10-8afb-fad7e4562edc" />
+  <img width="1104" height="621" alt="image" src="https://github.com/user-attachments/assets/7fd6fb06-8719-4b26-8640-388a4c6b93d1" />
+
 
 9. Click **Project → Build All**.
-    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/264cd0a8-3e96-4668-822e-838ecfafc527" />
+<img width="1069" height="599" alt="image" src="https://github.com/user-attachments/assets/195b4ead-4823-4a8f-97c8-ef1d383bd903" />
 
 10. Link the **HEX file** using the post-build process.
-    <img width="1053" height="465" alt="image" src="https://github.com/user-attachments/assets/478187a0-0ee6-4c50-9cac-c3b5ee18521b" />
+   <img width="1069" height="639" alt="image" src="https://github.com/user-attachments/assets/a0ec054d-e5d5-4def-ac85-9277d8d97c7d" />
+
 
 11. Click **Debug** and connect the **STM Nucleo Board**.
-    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/f72fff44-6073-4ae4-aa78-0da455df9af1" />
+    <img width="1000" height="545" alt="image" src="https://github.com/user-attachments/assets/c22b5bf0-16ed-47b1-8ba5-4a9c4270e50f" />
 
-13. Click **Run** to execute the program.
+12 . Click **Run** to execute the program.
+    <img width="1000" height="545" alt="image" src="https://github.com/user-attachments/assets/955c79f9-b9fc-4b71-a770-165675218cd2" />
+
     
 ---
 
@@ -102,8 +108,12 @@ int main(void)
 ---
 ### OUTPUT
 CASE 1: LED ON 
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/5e6bb4e3-5166-43b7-a09f-34ad327b61fd" />
+
 
 CASE 2: LED OFF
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/18603ae7-d446-4559-87cb-d46152e46521" />
+
 
 ---
 ### RESULT
